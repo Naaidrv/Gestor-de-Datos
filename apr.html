@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprobación de Gasto</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/apr.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" class="form">
+            <div class="form-hea">
+                <h1 class="form-title">Aprobación del Gasto</h1>
+            </div>
+            <label  class="form-label">Número de Factura:</label>
+            <input type="number" size="0" id="num" class="form-input">
+
+            <label class="form-label">Monto del Gasto:</label>
+            <input type="number" size="0" id="nom" class="form-input">
+            
+            <label  class="form-label">Gasto por Aprobar (CC):</label> 
+            <input type="text" size="0" id="ape" class="form-input">
+            
+            <label  class="form-label">Estado del Gasto:</label>
+            <input type="text" size="0" id="est" class="form-input">
+
+            <hr>
+
+            <div class="links">
+                <button type="button" class="btn btn-link"><a href="alta.html"><- Regresar</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" class="btn btn-link"><a href="act.html">Siguiente -></a></button>
+            </div>
+            </form>
+            </div>
+
+            <div class="botones">
+                <button type="button" class="btn btn-success">&nbsp;Aprobar&nbsp;&nbsp;</button><hr>
+                <button type="button" class="btn btn-danger">&nbsp;Rechazar&nbsp;&nbsp;</button>
+            </div>
+</body>
+</html>
