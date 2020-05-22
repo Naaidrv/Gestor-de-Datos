@@ -34,7 +34,6 @@ require_once("../db/conexion.php");
         return $listaDepartamentos;
     }
 
-    // método para buscar un libro, recibe como parámetro el id del libro
     public function obtenerDepartamento($idDepartamento){
       $con=BaseDatos::conectar();
       $select=$con->prepare('SELECT * FROM depar WHERE idDepartamento = idDepartamento');
